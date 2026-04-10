@@ -1,5 +1,5 @@
-import {Test} from "./components/test.js";
-import {Choice} from "./components/choice.js";
+import {Test} from "../dist/scripts/test.min.js";
+import {Choice} from "../dist/scripts/choice.min.js";
 
 export class Router {
     constructor() {
