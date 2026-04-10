@@ -10,14 +10,14 @@ export class Router {
 
         this.routes = [
             {
-                route: '/',
+                route: '#/',
                 title: 'Главная',
                 template: 'templates/index.html',
                 styles: 'dist/styles/index.min.css',
                 adaptiveStyles: 'dist/styles/adaptive/index.min.css',
             },
             {
-                route: '/choice/',
+                route: '#/choice/',
                 title: 'Выбор',
                 template: 'templates/choice.html',
                 styles: 'dist/styles/choice.min.css',
@@ -27,14 +27,14 @@ export class Router {
                 }
             },
             {
-                route: '/video/',
+                route: '#/video/',
                 title: 'Просмотр',
                 template: 'templates/video.html',
                 styles: 'dist/styles/video.min.css',
                 adaptiveStyles: 'dist/styles/adaptive/video.min.css',
             },
             {
-                route: '/test/',
+                route: '#/test/',
                 title: 'Выбор',
                 template: 'templates/test.html',
                 styles: 'dist/styles/test.min.css',
