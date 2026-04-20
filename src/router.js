@@ -1,5 +1,6 @@
 import {Test} from "../dist/scripts/test.min.js";
 import {Choice} from "../dist/scripts/choice.min.js";
+import {Common} from "../dist/scripts/common.min.js";
 
 export class Router {
     constructor() {
@@ -15,6 +16,9 @@ export class Router {
                 template: 'templates/index.html',
                 styles: 'dist/styles/index.min.css',
                 adaptiveStyles: 'dist/styles/adaptive/index.min.css',
+                load: () => {
+                    new Common();
+                }
             },
             {
                 route: '#/choice/',
@@ -23,6 +27,7 @@ export class Router {
                 styles: 'dist/styles/choice.min.css',
                 adaptiveStyles: 'dist/styles/adaptive/choice.min.css',
                 load: () => {
+                    new Common();
                     new Choice();
                 }
             },
@@ -32,6 +37,9 @@ export class Router {
                 template: 'templates/video.html',
                 styles: 'dist/styles/video.min.css',
                 adaptiveStyles: 'dist/styles/adaptive/video.min.css',
+                load: () => {
+                    new Common();
+                }
             },
             {
                 route: '#/test/',
@@ -40,6 +48,7 @@ export class Router {
                 styles: 'dist/styles/test.min.css',
                 adaptiveStyles: 'dist/styles/adaptive/test.min.css',
                 load: () => {
+                    new Common();
                     new Test();
                 }
             }
