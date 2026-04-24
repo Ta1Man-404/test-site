@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Станция первичной резки и контроль качества",
+    "test-name": "Первичная резка",
     "questions": [
       {
         "id": 1,
@@ -194,6 +195,72 @@
         ]
       }
     ]
+  },
+  {
+    "id": 2,
+    "name": "Разметка 'безопасное передвижение'",
+    "test-name": "Безопасное передвижение",
+    "questions": []
+  },
+  {
+    "id": 3,
+    "name": "LOTO",
+    "test-name": "LOTO",
+    "questions": []
+  },
+  {
+    "id": 4,
+    "name": "5C",
+    "test-name": "5C",
+    "questions": []
+  },
+  {
+    "id": 5,
+    "name": "Формовка",
+    "test-name": "Формовка",
+    "questions": []
+  },
+  {
+    "id": 6,
+    "name": "Мокрая резка",
+    "test-name": "Мокрая резка",
+    "questions": []
+  },
+  {
+    "id": 7,
+    "name": "Подготовка сырья",
+    "test-name": "Подготовка сырья",
+    "questions": []
+  },
+  {
+    "id": 8,
+    "name": "Бумага",
+    "test-name": "Бумага",
+    "questions": []
+  },
+  {
+    "id": 9,
+    "name": "Вата",
+    "test-name": "Вата",
+    "questions": []
+  },
+  {
+    "id": 10,
+    "name": "Крахмал",
+    "test-name": "Крахмал",
+    "questions": []
+  },
+  {
+    "id": 11,
+    "name": "Глина",
+    "test-name": "Глина",
+    "questions": []
+  },
+  {
+    "id": 12,
+    "name": "Перлит",
+    "test-name": "Перлит",
+    "questions": []
   }
 ]
 

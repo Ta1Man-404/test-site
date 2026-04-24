@@ -1,6 +1,7 @@
 import {Test} from "../dist/scripts/test.min.js";
 import {Choice} from "../dist/scripts/choice.min.js";
 import {Common} from "../dist/scripts/common.min.js";
+import {NewsPage} from "../dist/scripts/news.min.js";
 
 export class Router {
     constructor() {
@@ -50,6 +51,17 @@ export class Router {
                 load: () => {
                     new Common();
                     new Test();
+                }
+            },
+            {
+                route: '#/news/',
+                title: 'Новости',
+                template: 'templates/news.html',
+                styles: 'dist/styles/news.min.css',
+                adaptiveStyles: 'dist/styles/adaptive/news.min.css',
+                load: () => {
+                    new Common();
+                    new NewsPage();
                 }
             }
         ]
